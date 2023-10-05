@@ -1,0 +1,93 @@
+html {
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+.bg-img{
+    position: absolute;
+}
+
+.bg-top{
+    top: -400px;
+    left: -100px;
+}
+
+.bg-bot{
+    bottom: -450px;
+    right: -100px;
+}
+
+.card {
+    position: relative;
+    top: 20vh;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.card-header {
+    height: 120px;
+    text-align: center;
+}
+
+.card-header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-profile {
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #fff;
+}
+
+.card-body{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+}
+
+.card-footer{
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    width: 100%;
+}
+
+
+.card-stats{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.card-text, .card-number{
+    font-weight: bold;
+}
+.card-number {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.text-light {
+    color: hsl(227, 10%, 70%)
+}
+
+.card-text-stats{
+    margin-top: 2px;
+    font-size: .8rem;
+}
